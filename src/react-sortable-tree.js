@@ -231,6 +231,7 @@ class ReactSortableTree extends Component {
     // elsewhere, and we should reset the state of this tree
     if (!monitor.isDragging() && this.state.draggingTreeData) {
       this.endDrag();
+      this.endDrag();
     }
   }
 
